@@ -53,6 +53,23 @@ public class CwiczeniaPPJ6 {
         // 1
 
 
+        //WYPEŁNIENIE TAblicy
+        // wypełnienie tablicy o losowe elementy
+        int[] arr3 = new int[100];
+        for(int i = 0; i<arr.length; i++) {
+            System.out.println(arr[i] + " . ");
+        }
+        for (int i = 0; i<arr.length;i++){
+            arr[i] = (int)(Math.random()*100);
+        }
+        for(int i = 0; i<arr.length; i++) {
+            System.out.println(arr[i] + " . ");
+        }
+        //ponizej jest przyklad foreacha
+        for(int val9 : arr){
+            val9 = 0;
+        }
+        //powyzszy kawalek kodu powinien wypełnic tanlice, ale tego nie robi, oże bedzie na egzamienie albo kolokwium
 
     }
 }
